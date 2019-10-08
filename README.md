@@ -4,9 +4,11 @@ Capture Oracle Reports queue data to help migration analysis.
 This is a copy of
 `$ORACLE_HOME/reports/admin/sql/rw_server.sql`
 
-Following the instructions in [this blog](http://www.snapdba.com/2016/10/configuring-oracle-reports-server-job-queue-monitoring/#.XUOozegzZaQ), we can record the Oracle Report requests in a table. This means we can analyse how is running which reports how often, which will help drive a migration plan to declarative APEX solutions, or perhaps integrate something like [AOP](https://apexofficeprint.com).
+Following the instructions in [this blog](http://www.snapdba.com/2016/10/configuring-oracle-reports-server-job-queue-monitoring/#.XUOozegzZaQ), we can record the Oracle Report requests in a table. This means we can analyse who is running which reports how often, which will help drive a migration plan to declarative APEX solutions, or perhaps integrate something like [AOP](https://apexofficeprint.com).
 
 - Create schema
 - Create tables in schema
 - Add configuration to WLS, restart
-- Bathe in delicious log data
+- Bathe in delicious log data (who, what, when, how long)
+
+Identify those poorly performing reports by comparing the start and finish time.
