@@ -12,3 +12,5 @@ Following the instructions in [this blog](http://www.snapdba.com/2016/10/configu
 - Bathe in delicious log data (who, what, when, how long)
 
 Identify those poorly performing reports by comparing the start and finish time.
+
+I also raved about this on [#ThanksOGB](http://www.grassroots-oracle.com/2019/10/ogb-appreciation-day-oracle-reports-queue-monitoring.html) day.
